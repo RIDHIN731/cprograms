@@ -7,6 +7,7 @@ int main(){
     d=0;
     while(o!=0){
         r=o%10;
+        
         d+=r*r*r;
         o/=10;
     }
